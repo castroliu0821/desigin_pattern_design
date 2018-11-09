@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\sqlite">
+      <UniqueIdentifier>{e3516c95-cf9b-46ee-8c0d-8ae52f443457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sqlite">
+      <UniqueIdentifier>{b8a5d170-887d-45b6-99a7-7f5034b3b07a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\pugixml">
+      <UniqueIdentifier>{1a01e13b-040d-40e4-bed1-12fe0a35e9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\pugixml">
+      <UniqueIdentifier>{a374a248-35df-4040-ae8b-96c5064343b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\23DesignPattern">
+      <UniqueIdentifier>{b2588bd9-0a1b-46ed-be83-e7d06dcdad43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\23DesignPattern">
+      <UniqueIdentifier>{0e113963-e6fd-4cb7-a624-b5a19adcfaad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\23DesignPattern\AbstractFactoryDesginPattern">
+      <UniqueIdentifier>{8e8ffc87-14dd-41eb-be16-c54104ee12f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\23DesignPattern\FactoryMethodDesignPattern">
+      <UniqueIdentifier>{d7e434ae-7884-49d8-b026-b9a2c58dcacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\23DesignPattern\ObserverDesignPattern">
+      <UniqueIdentifier>{3b1ec820-3bf2-4213-a477-30b5e402ebba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\23DesignPattern\SimpleFactoryDesignPattern">
+      <UniqueIdentifier>{c2e192fb-96d8-4a67-9e1b-a09dd1b113c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\23DesignPattern\StateDesginPattern">
+      <UniqueIdentifier>{d0a6b8c8-cbc1-4b89-ae0b-651389181918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\23DesignPattern\AbstractFactoryDesginPattern">
+      <UniqueIdentifier>{30664593-d7e8-49cb-a1b1-8f70abb4f638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\23DesignPattern\FactoryMethodDesignPattern">
+      <UniqueIdentifier>{a27f7a54-5070-4017-a9d7-f4b061993b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\23DesignPattern\StateDesginPattern">
+      <UniqueIdentifier>{e1c64cb9-730b-42ba-b8dc-dc5847068bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\23DesignPattern\SimpleFactoryDesignPattern">
+      <UniqueIdentifier>{56578c04-505a-4171-8e80-73c4f186e8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\23DesignPattern\ObserverDesignPattern">
+      <UniqueIdentifier>{b0fb4fc4-59f0-489e-a907-25c815d115e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ThirdPartLib\sqlite_3_0\sqlite3.h">
+      <Filter>头文件\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdPartLib\sqlite_3_0\sqlite3ext.h">
+      <Filter>头文件\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdPartLib\pugixml\pugiconfig.hpp">
+      <Filter>头文件\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ThirdPartLib\pugixml\pugixml.hpp">
+      <Filter>头文件\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactory.h">
+      <Filter>头文件\23DesignPattern\AbstractFactoryDesginPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactory_Product.h">
+      <Filter>头文件\23DesignPattern\AbstractFactoryDesginPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactroyExample.h">
+      <Filter>头文件\23DesignPattern\AbstractFactoryDesginPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethod.h">
+      <Filter>头文件\23DesignPattern\FactoryMethodDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethod_Product.h">
+      <Filter>头文件\23DesignPattern\FactoryMethodDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethodExample.h">
+      <Filter>头文件\23DesignPattern\FactoryMethodDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoObserver.h">
+      <Filter>头文件\23DesignPattern\StateDesginPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoObserverExample.h">
+      <Filter>头文件\23DesignPattern\StateDesginPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoSubject.h">
+      <Filter>头文件\23DesignPattern\StateDesginPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactory.h">
+      <Filter>头文件\23DesignPattern\SimpleFactoryDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactory_Product.h">
+      <Filter>头文件\23DesignPattern\SimpleFactoryDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactoryExample.h">
+      <Filter>头文件\23DesignPattern\SimpleFactoryDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\State.h">
+      <Filter>头文件\23DesignPattern\ObserverDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\StateContext.h">
+      <Filter>头文件\23DesignPattern\ObserverDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\StateDesignPatternExample.h">
+      <Filter>头文件\23DesignPattern\ObserverDesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\DesignPatternExample.h">
+      <Filter>头文件\23DesignPattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ThirdPartLib\pugixml\pugixml.cpp">
+      <Filter>源文件\pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactory.cpp">
+      <Filter>源文件\23DesignPattern\AbstractFactoryDesginPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactory_Product.cpp">
+      <Filter>源文件\23DesignPattern\AbstractFactoryDesginPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactoryExample.cpp">
+      <Filter>源文件\23DesignPattern\AbstractFactoryDesginPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethod.cpp">
+      <Filter>源文件\23DesignPattern\FactoryMethodDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethod_Product.cpp">
+      <Filter>源文件\23DesignPattern\FactoryMethodDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethodExample.cpp">
+      <Filter>源文件\23DesignPattern\FactoryMethodDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoObserver.cpp">
+      <Filter>源文件\23DesignPattern\ObserverDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoObserverExample.cpp">
+      <Filter>源文件\23DesignPattern\ObserverDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoSubject.cpp">
+      <Filter>源文件\23DesignPattern\ObserverDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactory.cpp">
+      <Filter>源文件\23DesignPattern\SimpleFactoryDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactory_Product.cpp">
+      <Filter>源文件\23DesignPattern\SimpleFactoryDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactoryExample.cpp">
+      <Filter>源文件\23DesignPattern\SimpleFactoryDesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\State.cpp">
+      <Filter>源文件\23DesignPattern\StateDesginPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\StateContext.cpp">
+      <Filter>源文件\23DesignPattern\StateDesginPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\StateDesignPatternExample.cpp">
+      <Filter>源文件\23DesignPattern\StateDesginPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\DesignPatternExample.cpp">
+      <Filter>源文件\23DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ThirdPartLib\sqlite_3_0\sqlite3.c">
+      <Filter>源文件\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExampleCode\DemoExample.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

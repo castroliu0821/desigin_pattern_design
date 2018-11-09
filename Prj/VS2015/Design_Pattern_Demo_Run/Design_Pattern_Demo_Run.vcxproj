@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B7BFB4FB-9536-42C9-A38B-C989BC40DBF3}</ProjectGuid>
+    <RootNamespace>Design_Pattern_Demo_Run</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\repo\Design_Pattern_Demo_Run\ThirdPartLib\sqlite_3_0;D:\repo\Design_Pattern_Demo_Run\ThirdPartLib\pugixml;D:\repo\Design_Pattern_Demo_Run\ExampleCode\23_DesignPattern;D:\repo\Design_Pattern_Demo_Run\ExampleCode\23_DesignPattern\StateDesginPattern;D:\repo\Design_Pattern_Demo_Run\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern;D:\repo\Design_Pattern_Demo_Run\ExampleCode\23_DesignPattern\ObserverDesignPattern;D:\repo\Design_Pattern_Demo_Run\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern;D:\repo\Design_Pattern_Demo_Run\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern;D:\repo\Design_Pattern_Demo_Run\ExampleCode;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\TDDownload\boost_1_61_0\boost_1_61_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\TDDownload\boost_1_61_0\boost_1_61_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactory.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactory_Product.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactroyExample.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\DesignPatternExample.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethod.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethodExample.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethod_Product.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoObserver.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoObserverExample.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoSubject.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactory.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactoryExample.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactory_Product.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\State.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\StateContext.h" />
+    <ClInclude Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\StateDesignPatternExample.h" />
+    <ClInclude Include="..\..\..\ThirdPartLib\pugixml\pugiconfig.hpp" />
+    <ClInclude Include="..\..\..\ThirdPartLib\pugixml\pugixml.hpp" />
+    <ClInclude Include="..\..\..\ThirdPartLib\sqlite_3_0\sqlite3.h" />
+    <ClInclude Include="..\..\..\ThirdPartLib\sqlite_3_0\sqlite3ext.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactory.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactoryExample.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\AbstractFactoryDesginPattern\AbstractFactory_Product.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\DesignPatternExample.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethod.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethodExample.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\FactoryMethodDesignPattern\FactoryMethod_Product.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoObserver.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoObserverExample.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\ObserverDesignPattern\DemoSubject.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactory.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactoryExample.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\SimpleFactoryDesignPattern\SimpleFactory_Product.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\State.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\StateContext.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\23_DesignPattern\StateDesginPattern\StateDesignPatternExample.cpp" />
+    <ClCompile Include="..\..\..\ExampleCode\DemoExample.cpp" />
+    <ClCompile Include="..\..\..\ThirdPartLib\pugixml\pugixml.cpp" />
+    <ClCompile Include="..\..\..\ThirdPartLib\sqlite_3_0\sqlite3.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
